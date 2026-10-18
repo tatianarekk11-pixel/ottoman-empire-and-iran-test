@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Исторический тест — Османская империя и Иран</title>
+<style>
+:root{--bg:#f4f6fb;--card:#fff;--ink:#20243a;--muted:#68708a;--accent:#4057c8;--accent2:#e8ecff;--line:#e2e6f0;--good:#16794b;--bad:#b42332;--gold:#e5b85c}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+header{background:linear-gradient(120deg,#202b64,#4057c8 65%,#7185e8);color:white;padding:42px 20px 35px}
+.hero{max-width:960px;margin:auto}.eyebrow{text-transform:uppercase;letter-spacing:.13em;font-size:.76rem;font-weight:800;opacity:.82}
+h1{font-size:clamp(1.9rem,4vw,3rem);line-height:1.1;margin:12px 0}.hero p{max-width:700px;color:#edf0ff;margin:12px 0 0}
+.pills{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px}.pill{border:1px solid #ffffff55;background:#ffffff18;border-radius:999px;padding:7px 12px;font-size:.88rem}
+main{max-width:960px;margin:26px auto;padding:0 16px 50px}.intro,.question,.results{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px;margin-bottom:16px;box-shadow:0 5px 20px #202b6408}
+.intro h2,.question h2,.results h2{margin:0 0 9px;font-size:1.18rem}.muted{color:var(--muted);font-size:.94rem}
+.topline{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:10px}.qnum{font-size:.82rem;color:var(--accent);font-weight:800;letter-spacing:.08em;text-transform:uppercase}.points{white-space:nowrap;background:var(--accent2);color:var(--accent);padding:5px 10px;border-radius:999px;font-size:.82rem;font-weight:800}
+label.option{display:flex;align-items:flex-start;gap:11px;padding:11px 13px;margin:8px 0;border:1px solid var(--line);border-radius:12px;cursor:pointer;transition:.15s}
+label.option:hover{border-color:#aab5f5;background:#f9faff}input[type=radio],input[type=checkbox]{accent-color:var(--accent);margin-top:5px;transform:scale(1.08)}
+textarea,input[type=text],select{width:100%;border:1px solid #cfd5e5;border-radius:11px;padding:12px 13px;font:inherit;color:var(--ink);background:#fff}
+textarea{min-height:95px;resize:vertical}select{margin-top:5px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}.field{margin:12px 0}.field label{display:block;font-weight:650;margin-bottom:5px}
+button{font:inherit;font-weight:750;border:0;border-radius:12px;padding:13px 19px;cursor:pointer;transition:.15s}
+.primary{background:var(--accent);color:#fff;box-shadow:0 5px 12px #4057c82b}.primary:hover{background:#3046b2;transform:translateY(-1px)}
+.secondary{background:#e9ecf6;color:#313a61}.btnrow{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0}
+.feedback{display:none;margin-top:12px;border-radius:10px;padding:10px 12px;font-size:.93rem}.feedback.good{display:block;background:#eaf8f0;color:var(--good)}.feedback.bad{display:block;background:#fff0f0;color:var(--bad)}
+.results{display:none;border:2px solid #cfd5ff}.scoreline{display:flex;align-items:center;gap:18px;flex-wrap:wrap;margin:15px 0}.scorecircle{width:90px;height:90px;border-radius:50%;display:grid;place-items:center;background:var(--accent2);color:var(--accent);font-weight:900;font-size:1.45rem}
+.resultlabel{font-size:1.3rem;font-weight:850}.resultlist{padding-left:20px}.correctanswer{font-size:.9rem;color:var(--muted);margin-top:8px}
+footer{text-align:center;color:var(--muted);font-size:.85rem;padding:12px}
+@media(max-width:600px){header{padding:32px 18px}.intro,.question,.results{padding:17px}.grid2{grid-template-columns:1fr}.topline{align-items:flex-start}}
+@media print{body{background:white}.btnrow,header .pills{display:none}.question,.intro{box-shadow:none;break-inside:avoid}}
+</style>
+</head>
+<body>
+<header><div class="hero">
+<div class="eyebrow">Интерактивный тест · Всеобщая история · 8 класс</div>
+<h1>Османская империя<br>и Иран</h1>
+<p>Проверь знания о правителях, исторических понятиях, хронологии и причинах ослабления государств в XVIII веке.</p>
+<div class="pills"><span class="pill">8 заданий</span><span class="pill">16 баллов</span><span class="pill">15–20 минут</span><span class="pill">Автоматическая проверка</span></div>
+</div></header>
+<main>
+<section class="intro">
+<h2>Перед началом</h2>
+<p>Ответь на все вопросы и нажми <b>«Проверить ответы»</b>. В заданиях с несколькими правильными вариантами отметь все необходимые ответы. Открытый ответ проверяется автоматически по ключевым словам, поэтому после проверки обязательно просмотри пояснение.</p>
+<div class="muted">Шкала: 15–16 баллов — «5»; 12–14 — «4»; 8–11 — «3»; 4–7 — «2»; 0–3 — «1».</div>
+</section>
+
+<form id="quiz">
+<section class="question" data-q="1">
+<div class="topline"><span class="qnum">Задание 1 · Открытая форма</span><span class="points">до 2 баллов</span></div>
+<h2>Дайте определение понятию «Восточный вопрос».</h2>
+<textarea id="q1" placeholder="Введите определение своими словами…"></textarea>
+<div class="muted">Подсказка: подумай об ослаблении Османской империи и интересах европейских держав.</div>
+<div class="feedback" id="f1"></div>
+<div class="correctanswer" id="a1"></div>
+</section>
+
+<section class="question" data-q="2">
+<div class="topline"><span class="qnum">Задание 2 · Полуоткрытая форма</span><span class="points">до 2 баллов</span></div>
+<h2>Как звали правителя Ирана XVIII века, сыгравшего значительную роль в объединении страны и проведении военных походов?</h2>
+<div class="field"><input type="text" id="q2" placeholder="Имя и титул правителя"></div>
+<div class="feedback" id="f2"></div><div class="correctanswer" id="a2"></div>
+</section>
+
+<section class="question" data-q="3">
+<div class="topline"><span class="qnum">Задание 3 · Последовательность</span><span class="points">до 2 баллов</span></div>
+<h2>Расположите события в хронологической последовательности — от раннего к позднему.</h2>
+<p class="muted">Выберите для каждого события его порядковый номер.</p>
+<div class="grid2">
+<div class="field"><label for="q3a">А. Начало правления Надир-шаха в Иране</label><select id="q3a"><option value="">Порядок…</option><option>1</option><option>2</option><option>3</option><option>4</option></select></div>
+<div class="field"><label for="q3b">Б. Начало правления Селима III в Османской империи</label><select id="q3b"><option value="">Порядок…</option><option>1</option><option>2</option><option>3</option><option>4</option></select></div>
+<div class="field"><label for="q3c">В. Начало правления Ахмеда III в Османской империи</label><select id="q3c"><option value="">Порядок…</option><option>1</option><option>2</option><option>3</option><option>4</option></select></div>
+<div class="field"><label for="q3d">Г. Начало правления Керим-хана в Иране</label><select id="q3d"><option value="">Порядок…</option><option>1</option><option>2</option><option>3</option><option>4</option></select></div>
+</div>
+<div class="feedback" id="f3"></div><div class="correctanswer" id="a3"></div>
+</section>
+
+<section class="question" data-q="4">
+<div class="topline"><span class="qnum">Задание 4 · Соответствие</span><span class="points">до 2 баллов</span></div>
+<h2>Установите соответствие между историческими деятелями и государствами.</h2>
+<div class="field"><label for="q4a">1. Ахмед III</label><select id="q4a"><option value="">Выберите государство…</option><option value="O">Османская империя</option><option value="I">Иран</option></select></div>
+<div class="field"><label for="q4b">2. Селим III</label><select id="q4b"><option value="">Выберите государство…</option><option value="O">Османская империя</option><option value="I">Иран</option></select></div>
+<div class="field"><label for="q4c">3. Надир-шах</label><select id="q4c"><option value="">Выберите государство…</option><option value="O">Османская империя</option><option value="I">Иран</option></select></div>
+<div class="field"><label for="q4d">4. Керим-хан</label><select id="q4d"><option value="">Выберите государство…</option><option value="O">Османская империя</option><option value="I">Иран</option></select></div>
+<div class="feedback" id="f4"></div><div class="correctanswer" id="a4"></div>
+</section>
+
+<section class="question" data-q="5">
+<div class="topline"><span class="qnum">Задание 5 · Одиночный выбор</span><span class="points">1 балл</span></div>
+<h2>Какой правитель Османской империи предпринимал попытки военных и административных преобразований в конце XVIII — начале XIX века?</h2>
+<label class="option"><input type="radio" name="q5" value="A"> Ахмед III</label>
+<label class="option"><input type="radio" name="q5" value="B"> Селим III</label>
+<label class="option"><input type="radio" name="q5" value="C"> Надир-шах</label>
+<label class="option"><input type="radio" name="q5" value="D"> Керим-хан</label>
+<div class="feedback" id="f5"></div><div class="correctanswer" id="a5"></div>
+</section>
+
+<section class="question" data-q="6">
+<div class="topline"><span class="qnum">Задание 6 · Одиночный выбор</span><span class="points">1 балл</span></div>
+<h2>Как называется комплекс международных противоречий, связанных с ослаблением Османской империи и борьбой европейских держав за влияние в регионе?</h2>
+<label class="option"><input type="radio" name="q6" value="A"> Промышленный переворот</label>
+<label class="option"><input type="radio" name="q6" value="B"> Восточный вопрос</label>
+<label class="option"><input type="radio" name="q6" value="C"> Реформация</label>
+<label class="option"><input type="radio" name="q6" value="D"> Просвещённый абсолютизм</label>
+<div class="feedback" id="f6"></div><div class="correctanswer" id="a6"></div>
+</section>
+
+<section class="question" data-q="7">
+<div class="topline"><span class="qnum">Задание 7 · Множественный выбор</span><span class="points">до 3 баллов</span></div>
+<h2>Выберите два правильных утверждения о развитии Османской империи и Ирана в XVIII веке.</h2>
+<label class="option"><input type="checkbox" name="q7" value="A"> Османская империя столкнулась с внутренними трудностями и необходимостью преобразований.</label>
+<label class="option"><input type="checkbox" name="q7" value="B"> Надир-шах был правителем Османской империи.</label>
+<label class="option"><input type="checkbox" name="q7" value="C"> Внутренние проблемы государств сочетались с усилением внешнего давления.</label>
+<label class="option"><input type="checkbox" name="q7" value="D"> Восточный вопрос был связан исключительно с внутренней политикой Ирана.</label>
+<div class="feedback" id="f7"></div><div class="correctanswer" id="a7"></div>
+</section>
+
+<section class="question" data-q="8">
+<div class="topline"><span class="qnum">Задание 8 · Множественный выбор</span><span class="points">до 3 баллов</span></div>
+<h2>Выберите два фактора, которые могли способствовать ослаблению Османской империи и Ирана в рассматриваемый период.</h2>
+<label class="option"><input type="checkbox" name="q8" value="A"> Внутренние политические противоречия и нестабильность.</label>
+<label class="option"><input type="checkbox" name="q8" value="B"> Полное отсутствие внешнеполитических конфликтов.</label>
+<label class="option"><input type="checkbox" name="q8" value="C"> Давление и вмешательство европейских держав в дела региона.</label>
+<label class="option"><input type="checkbox" name="q8" value="D"> Полное отсутствие необходимости в государственных преобразованиях.</label>
+<div class="feedback" id="f8"></div><div class="correctanswer" id="a8"></div>
+</section>
+
+<div class="btnrow"><button class="primary" type="button" id="check">Проверить ответы</button><button class="secondary" type="reset" id="reset">Начать заново</button><button class="secondary" type="button" id="print">Распечатать</button></div>
+</form>
+
+<section class="results" id="results" aria-live="polite">
+<h2>Результаты теста</h2>
+<div class="scoreline"><div class="scorecircle" id="score">0/16</div><div><div class="resultlabel" id="grade">—</div><div class="muted" id="percent"></div></div></div>
+<p id="summary"></p>
+<p class="muted">Проверка открытого ответа выполняется автоматически по ключевым словам и может не распознать правильную формулировку, написанную другими словами. Если определение по смыслу верное, учитель может скорректировать балл вручную.</p>
+<button class="secondary" type="button" id="review">Перейти к разбору ответов</button>
+</section>
+<footer>Учебный материал · Всеобщая история, 8 класс</footer>
+</main>
+<script>
+const $=id=>document.getElementById(id);
+function setFeedback(n,ok,text,answer=''){const f=$('f'+n);f.className='feedback '+(ok?'good':'bad');f.textContent=text;$('a'+n).textContent=answer?('Ответ: '+answer):'';}
+function selectedRadio(name){const e=document.querySelector('input[name="'+name+'"]:checked');return e?e.value:''}
+function selectedChecks(name){return [...document.querySelectorAll('input[name="'+name+'"]:checked')].map(e=>e.value).sort()}
+function same(a,b){return a.length===b.length&&a.every((v,i)=>v===b[i])}
+function gradeTest(){
+ let score=0, earned={};
+ const q1=$('q1').value.trim().toLowerCase();
+ const terms=['осман','европ','держав','влияни','владен','международ','ослаб'];
+ let hits=terms.filter(t=>q1.includes(t)).length;
+ let p1=q1.length===0?0:(hits>=4?2:(hits>=2?1:0));
+ score+=p1;earned[1]=p1;
+ setFeedback(1,p1===2,'Автоматическая оценка: '+p1+' из 2 баллов. Проверь, что в определении отражены международные противоречия, ослабление Османской империи и борьба европейских держав за влияние.','Восточный вопрос — комплекс международных противоречий, связанных с ослаблением Османской империи, судьбой её владений и борьбой европейских держав за влияние в регионе.');
+ const q2=$('q2').value.trim().toLowerCase().replace(/ё/g,'е');
+ const p2=(q2.includes('надир')&&q2.includes('шах'))?2:0;
+ score+=p2;earned[2]=p2;setFeedback(2,p2===2,'Получено '+p2+' из 2 баллов.','Надир-шах');
+ const seq=['2','4','1','3']; // A,B,C,D orders based on chronology: C first, A second, D third, B fourth
+ const vals=[$('q3a').value,$('q3b').value,$('q3c').value,$('q3d').value];
+ const correctSeq=['2','4','1','3'];
+ const correctCount=vals.filter((v,i)=>v===correctSeq[i]).length;
+ const p3=correctCount===4?2:(correctCount>=2?1:0);
+ score+=p3;earned[3]=p3;setFeedback(3,p3===2,'Получено '+p3+' из 2 баллов. Правильный порядок: В → А → Г → Б.','Хронология: Ахмед III (с 1703 г.), Надир-шах (с 1736 г.), Керим-хан (с 1751 г.), Селим III (с 1789 г.).');
+ const vals4=[$('q4a').value,$('q4b').value,$('q4c').value,$('q4d').value], corr4=['O','O','I','I'];
+ const c4=vals4.filter((v,i)=>v===corr4[i]).length,p4=c4===4?2:(c4>=2?1:0);
+ score+=p4;earned[4]=p4;setFeedback(4,p4===2,'Получено '+p4+' из 2 баллов.','Ахмед III и Селим III — Османская империя; Надир-шах и Керим-хан — Иран.');
+ const p5=selectedRadio('q5')==='B'?1:0;score+=p5;earned[5]=p5;setFeedback(5,p5===1,'Получено '+p5+' из 1 балла.','Селим III.');
+ const p6=selectedRadio('q6')==='B'?1:0;score+=p6;earned[6]=p6;setFeedback(6,p6===1,'Получено '+p6+' из 1 балла.','Восточный вопрос.');
+ function multi(n,correct){const got=selectedChecks('q'+n);const ok=same(got,correct);const p=ok?3:(got.length===1&&correct.includes(got[0])?1:0);score+=p;earned[n]=p;setFeedback(n,ok,'Получено '+p+' из 3 баллов.','Правильные варианты: '+correct.join(' и ')+'.');}
+ multi(7,['A','C']);multi(8,['A','C']);
+ const pct=Math.round(score/16*100);
+ let grade=score>=15?5:score>=12?4:score>=8?3:score>=4?2:1;
+ $('score').textContent=score+'/16';$('grade').textContent='Отметка: '+grade;$('percent').textContent=pct+'% правильного выполнения';
+ $('summary').textContent='Вы набрали '+score+' из 16 баллов. '+(grade===5?'Отличный результат: материал освоен на высоком уровне.':grade===4?'Хороший результат. Повтори вопросы, в которых допущены ошибки.':grade===3?'Базовые знания сформированы, но отдельные темы стоит повторить.': 'Рекомендуется повторить понятия, исторических деятелей и хронологию, затем пройти тест ещё раз.');
+ $('results').style.display='block';$('results').scrollIntoView({behavior:'smooth',block:'start'});
+}
+$('check').addEventListener('click',gradeTest);
+$('reset').addEventListener('click',()=>{setTimeout(()=>{for(let i=1;i<=8;i++){const f=$('f'+i);f.className='feedback';f.textContent='';$('a'+i).textContent='';}$('results').style.display='none';},0)});
+$('print').addEventListener('click',()=>window.print());
+$('review').addEventListener('click',()=>document.querySelector('.question').scrollIntoView({behavior:'smooth',block:'start'}));
+</script>
+</body>
+</html>
